@@ -1,0 +1,43 @@
+name: obesmart
+description: "A new Flutter project."
+
+# Prevents the package from being accidentally published to pub.dev
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Version and build number
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  url_launcher: ^6.2.1
+  table_calendar: ^3.0.4
+  fl_chart: ^0.63.0
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.10
+  provider: ^6.1.1
+  animations: ^2.0.7
+  sleek_circular_slider: ^2.0.1
+  flutter_staggered_grid_view: ^0.7.0
+  image_picker: ^1.0.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/logo.png  # Remplacez ceci par le chemin de votre logo
+
+  # Ajouter la configuration de la police Spectral
+  fonts:
+    - family: Spectral
+      fonts:
+        - asset: lib/Spectral-Regular.ttf
+        - asset: lib/Spectral-Bold.ttf
+          weight: 700
+        - asset: lib/Spectral-Italic.ttf
+          style: italic
+
