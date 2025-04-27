@@ -6,7 +6,7 @@ class DoctorDashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar: AppBar(vc
         title: const Text('Tableau de bord du Médecin'),
         backgroundColor: Colors.deepPurple,
       ),
